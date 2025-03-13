@@ -138,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 filteredTasks = filteredTasks.filter(task => task.completed === false);
             }
         }
+        // Display filtered tasks
         displayTasks(filteredTasks);
     }
 
